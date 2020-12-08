@@ -1,0 +1,48 @@
+.what {
+  background-color: #fff;
+  padding: 10% 20% 10% 20%;
+}
+
+.what_jumbo {
+  background-color: #fff;
+}
+
+.what_block {
+  font-family: 'Lato';
+  padding: 1% 10% 3% 10%;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.what_block h2 {
+  display: block;
+  width: 80%;
+  margin: -3% auto 8% auto;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
+.what_block p {
+  text-align: center;
+}
+
+.what_block h4 {
+  font-family: 'Lato';
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.what_block_box {
+  margin: 0 0 100px 0;
+}
+
+.what_block img {
+  display: block;
+  margin: 0 auto;
+}

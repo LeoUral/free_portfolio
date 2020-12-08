@@ -1,3 +1,37 @@
 .header {
+  margin: 0;
   background-color: #ccc;
+  background-image: url("../image/bg-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Lato';
+  position: relative;
+  z-index: -2;
+}
+
+.header_coat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #aab5ca;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.header h1 {
+  margin: 0 0 0 0;
+  padding: 22% 30% 0 30%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.header p {
+  padding: 10px 30% 20% 30%;
+  text-align: center;
+  margin: 0;
 }

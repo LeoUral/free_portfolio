@@ -1,0 +1,43 @@
+.services {
+  padding: 10% 20% 10% 20%;
+  position: relative;
+  background: url("../image/bg-5.jpg") no-repeat fixed bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -3;
+}
+
+.substrate {
+  background-color: #aab5ca;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+}
+
+.services_block {
+  font-family: 'Lato';
+  padding: 1% 10% 3% 10%;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.services_block h2 {
+  display: block;
+  width: 80%;
+  margin: -3% auto 8% auto;
+  text-align: center;
+  background-color: inherit;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.services_block p {
+  text-align: center;
+  color: #fff;
+}
