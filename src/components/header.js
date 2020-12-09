@@ -6,7 +6,7 @@ export default function Header() {
 
     return (
         <>
-            <Container className="header">
+            <Container className="header" id="header">
                 <div className="header_coat"></div>
                 <Jumbotron fluid className="header_jubo">
                     <h1>WORKING  WITH design LAB </h1>
