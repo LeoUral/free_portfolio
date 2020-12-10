@@ -1,15 +1,33 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Container } from 'react-bootstrap';
+import '../style/work.css';
 import WorkBlock from './workBlock';
+import DATA_WORK from './dataWork';
 
-export default function Works() {
+export default class Works extends React.Component {
 
+    render() {
+        const workArr = [];
 
-    return (
-        <>
-            <Container>
-                <WorkBlock />
-            </Container>
-        </>
-    );
+        DATA_WORK.forEach((data) => {
+            workArr.push(
+                <Fragment key={data.id}>
+                    <WorkBlock
+                        url={data.url}
+                        title={data.title}
+                        text={data.text}
+                        urlImg={data.urlImg} />
+                </Fragment>
+            );
+        });
+        console.log(workArr);
+
+        return (
+            <>
+                <Container className="work">
+                    {workArr}
+                </Container>
+            </>
+        );
+    }
 }

@@ -1,49 +1,65 @@
 .work_block {
-    background-image: url("../image/bg-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #fff;
-    min-height: 150px;
+    min-height: 300px;
     overflow: hidden;
-    margin: 0 0 0 50px;
+    margin: 5px;
 }
 
 .work_link {
     width: 100%;
-    min-height: 150px;
+    min-height: 300px;
     display: block;
     text-align: right;
+    font-family: 'Lato';
     color: #fff;
+    text-decoration: none;
     position: relative;
 }
 
 .work_link span {
     display: block;
-    padding: 50px 5px 0 0;
+    padding: 120px 5px 0 0;
+}
+
+.work_link span h3 {
+    text-transform: uppercase;
+    display: block;
+    opacity: 0;
+    margin: 0 90% 0 0;
+    transition: 1s;
 }
 
 .work_cover {
-    width: 18rem;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: 0 0 0 0;
-    background-color: #ccc;
-    color: #000;
-    opacity: 0.9;
+    background-color: #aab5ca;
+    color: #fff;
+    opacity: 0.8;
     transition: 1s;
     cursor: pointer;
 }
 
 .work_cover span {
     display: block;
-    padding: 40px 5px 0 5px;
+    padding: 120px 20px 0 20px;
     text-align: center;
 }
 
 .work_block:hover .work_cover {
-    margin: 0 200px 0 -200px;
+    margin: 0 90% 0 -90%;
+    transition: 1s;
+}
+
+.work_block:hover .work_link span h3 {
+    opacity: 1;
+    margin: 0 0 0 0;
     transition: 1s;
 }
