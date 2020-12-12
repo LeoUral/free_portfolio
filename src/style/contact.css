@@ -7,7 +7,7 @@
   background-color: #fff;
 }
 
-.contact_block {
+.contact_jumbo_block {
   font-family: 'Lato';
   padding: 1% 10% 3% 10%;
   border-bottom: 1px solid #000;
@@ -24,7 +24,7 @@
           flex-direction: column;
 }
 
-.contact_block h2 {
+.contact_jumbo_block h2 {
   display: block;
   width: 80%;
   margin: -3% auto 8% auto;
@@ -34,12 +34,12 @@
   background-color: #fff;
 }
 
-.contact_block p {
+.contact_jumbo_block p {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.block_links {
+.contact_jumbo_block_links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,12 +54,6 @@
   margin: 0 20px 0 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-}
-
-.contact_link span {
-  display: block;
-  margin-left: 10px;
-  padding: 6px;
 }
 
 .contact_link:hover {

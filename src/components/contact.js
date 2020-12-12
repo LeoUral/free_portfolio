@@ -14,10 +14,10 @@ export default function Contact() {
         <>
             <Container fluid className="contact" >
                 <Jumbotron fluid className="contact_jumbo" >
-                    <div className="contact_block" >
+                    <div className="contact_jumbo_block" >
                         <h2> Contact us </h2>
                         <p> Со мной можно связаться несколькими способами, быстрее всего написать. </p>
-                        <div className="block_links">
+                        <div className="contact_jumbo_block_links">
                             <a href="#header" target="_blank" rel="noreferrer" className="contact_link" title="Напишите мне в Инстаграмм">
                                 <img src={icon_1} alt='icon' />
                             </a>
