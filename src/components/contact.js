@@ -15,7 +15,7 @@ export default function Contact() {
             <Container fluid className="contact" >
                 <Jumbotron fluid className="contact_jumbo" >
                     <div className="contact_jumbo_block" >
-                        <h2> Contact us </h2>
+                        <h2> Контакты </h2>
                         <p> Со мной можно связаться несколькими способами, быстрее всего написать. </p>
                         <div className="contact_jumbo_block_links">
                             <a href="#header" target="_blank" rel="noreferrer" className="contact_link" title="Напишите мне в Инстаграмм">
