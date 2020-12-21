@@ -14,7 +14,6 @@
     display: block;
     text-align: right;
     font-family: 'Lato';
-    color: #fff;
     text-decoration: none;
     position: relative;
 }
@@ -29,6 +28,8 @@
     display: block;
     opacity: 0;
     margin: 0 90% 0 0;
+    color: rgb(67, 77, 131);
+    text-shadow: 1px 1px 1px #fff;
     transition: 1s;
 }
 
