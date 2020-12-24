@@ -1,0 +1,60 @@
+@import './animation';
+.modal_shadow {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+.modal_window {
+    width: 300px;
+    position: relative;
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 11;
+    animation: window_animation 1s;
+    & h3 {
+        font-family: 'Lato';
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.btn_close {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    width: 180px;
+    height: 45px;
+    background-color: rgb(46, 161, 214);
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: 'Lato';
+    box-shadow: 3px 3px 5px rgb(67, 77, 131);
+    border: none;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.btn_close:hover {
+    color: rgb(46, 161, 214);
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+.btn_close:active {
+    box-shadow: none;
+}

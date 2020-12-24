@@ -1,0 +1,16 @@
+@keyframes window_animation {
+    from {
+        opacity: 0;
+        top: 0;
+        // transform: rotate(0deg);
+    }
+    50% {
+        opacity: 1;
+        top: 30%;
+    }
+    to {
+        opacity: 1;
+        top: 20%;
+        // transform: rotate(360deg);
+    }
+}
