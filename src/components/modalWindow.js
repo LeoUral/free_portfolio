@@ -33,6 +33,7 @@ export default function ModalWindow(props) {
                 </div>
                 <button className="btn_close" onClick={handleClose}>close</button>
             </div>
+
         </>
     );
 }
