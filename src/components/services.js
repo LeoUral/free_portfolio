@@ -11,9 +11,9 @@ export default function Services() {
                 <Jumbotron fluid className="services_jumbo">
                     <div className="substrate"></div>
                     <div className="services_block" >
-                        <h2> Services </h2>
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.Possimus veritatis illum ad, nesciunt doloremque eos, sint aperiam tempore. </p>
-                        <p > Lorem ipsum dolor sit amet consectetur adipisicing elit.Itaque minus, provident alias inventore earum atque in facilis qui expedita nam molestias molestiae sequi at laboriosam dolorum nemo, eos, iure libero tenetur minima.Omnis tenetur nostrum assumenda at ad illo necessitatibus. </p>
+                        <h2> Услуги </h2>
+                        <p> WEB Разработка сайтов. </p>
+                        <p > Разработка сайтов для бизнеса, лендинг, сайт-визитка, корпоративный сайт, сайт катлог. Адаптивная, кросс-браузерная верстка сайтов, а также мобильная версия. </p>
                     </div>
 
                 </Jumbotron>
