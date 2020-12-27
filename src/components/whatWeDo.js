@@ -16,16 +16,16 @@ export default function WhatWeDo() {
             <Container fluid className="what" >
                 <Jumbotron fluid className="what_jumbo" >
                     <div className="what_block" >
-                        <h2>Что мы делаем</h2>
+                        <h2>Что использую</h2>
                         <div className="what_block_box">
                             <img src={iconHtml} alt="icon" width='60' height="60" />
-                            <h4>Верстка html5</h4>
+                            <h4>html5</h4>
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.Possimus veritatis illum ad, nesciunt doloremque eos, sint aperiam tempore. </p>
                             <p > Lorem ipsum dolor sit amet consectetur adipisicing elit.Itaque minus, provident alias inventore earum atque in facilis qui expedita nam molestias molestiae sequi at laboriosam dolorum nemo, eos, iure libero tenetur minima.Omnis tenetur nostrum assumenda at ad illo necessitatibus. </p>
                         </div>
                         <div className="what_block_box">
                             <img src={iconSass} alt="icon" width='60' height="60" />
-                            <h4>Стилизация верстки</h4>
+                            <h4>Стилизация верстки, препроцессор</h4>
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.Possimus veritatis illum ad, nesciunt doloremque eos, sint aperiam tempore. </p>
                             <p > Lorem ipsum dolor sit amet consectetur adipisicing elit.Itaque minus, provident alias inventore earum atque in facilis qui expedita nam molestias molestiae sequi at laboriosam dolorum nemo, eos, iure libero tenetur minima.Omnis tenetur nostrum assumenda at ad illo necessitatibus. </p>
                         </div>
