@@ -11,8 +11,10 @@ export default function About() {
                 <Jumbotron fluid className="about_jumbo" >
                     <div className="about_block" >
                         <h2> Обо мне </h2>
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.Possimus veritatis illum ad, nesciunt doloremque eos, sint aperiam tempore. </p>
-                        <p > Lorem ipsum dolor sit amet consectetur adipisicing elit.Itaque minus, provident alias inventore earum atque in facilis qui expedita nam molestias molestiae sequi at laboriosam dolorum nemo, eos, iure libero tenetur minima.Omnis tenetur nostrum assumenda at ad illo necessitatibus. </p>
+                        <p>Меня зову Леонид Кудряшов.<br />
+                         Занимаюсь созданием сайтов с 2019 года, обучение проходил удаленно в GeekBrains. </p>
+                        <p>Сайты создаю с использованием HTML5, CSS3, предпроцессоров SASS и LESS. Обязательно использую JS.<br />  Последнее время больше стал увлекаться написанием сайтов на REACT. </p>
+
                     </div>
                 </Jumbotron>
             </Container>
