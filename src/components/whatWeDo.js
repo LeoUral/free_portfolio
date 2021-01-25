@@ -16,7 +16,7 @@ export default function WhatWeDo() {
             <Container fluid className="what" >
                 <Jumbotron fluid className="what_jumbo" >
                     <div className="what_block" >
-                        <h2>Что использую</h2>
+                        <h2>Мои инструменты</h2>
                         <div className="what_block_box">
                             <img src={iconHtml} alt="icon" width='60' height="60" />
                             <h4>html5</h4>

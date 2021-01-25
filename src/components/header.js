@@ -9,10 +9,10 @@ export default function Header() {
             <Container className="header" id="header">
                 <div className="header_coat"></div>
                 <Jumbotron fluid className="header_jumbo">
-                    <h1>bringing your design to life</h1>
-                    <p> Ты не можешь ни выйграть, ни проиграть до тех пор, пока ты не участвуешь в гонках.
+                    <h1>Have a design? Let's animate it.</h1>
+                    <p>
                         <br /><br />
-                        <span style={{ fontStyle: 'italic', paddingRight: '50%' }}> Дэвид Боуи </span>
+                        <span style={{ fontStyle: 'italic', paddingRight: '50%' }}>  </span>
                     </p>
                 </Jumbotron>
             </Container>
