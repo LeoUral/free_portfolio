@@ -15,8 +15,8 @@ export default function ModalWindow(props) {
         <>
             <div className="modal_shadow" onClick={handleClose} style={{ display: props.show ? 'block' : 'none' }}></div>
             <div className="modal_window" style={{ display: props.show ? 'block' : 'none' }}>
-                <h3>Modal Window</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio facilis minus nisi obcaecati ipsum numquam sunt, magni sint omnis nobis accusamus harum, velit ratione.</p>
+                <h3>Мои контакты</h3>
+                <p>Быстрее всего я увижу Ваше сообщение написаное в Telegram, а так же можно воспользоваться и дургими мессенджерами.</p>
                 <div className="contact_jumbo_block_links">
                     <a href="https://www.instagram.com/leo.photo_ural/" target="_blank" rel="noreferrer" className="contact_link" title="Напишите мне в Инстаграмм">
                         <img src={icon_1} alt='icon' />

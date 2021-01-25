@@ -19,7 +19,7 @@ export default function Contact() {
                 <Jumbotron fluid className="contact_jumbo" >
                     <div className="contact_jumbo_block" >
                         <h2> Контакты </h2>
-                        <p> Со мной можно связаться несколькими способами, быстрее всего написать. </p>
+                        <p> Со мной можно связаться несколькими способами, быстрее всего написать в мессенджере. </p>
                         <ModalWindow show={show} offShow={handleOffShow} />
                         <button className="btn_open" onClick={handleShow}>
                             <div className="in_btn">

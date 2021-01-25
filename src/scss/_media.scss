@@ -1,0 +1,37 @@
+@media (max-width: 1000px) {
+    .modal_window {
+        width: 300px;
+        top: 20%;
+        left: 32%;
+    }
+}
+
+@media (max-width: 650px) {
+    .modal_window {
+        width: 300px;
+        top: 20%;
+        left: 25%;
+    }
+}
+
+@media (max-width: 550px) {
+    .modal_window {
+        width: 300px;
+        top: 20%;
+        left: 15%;
+    }
+}
+
+@media (max-width: 499px) {
+    h2 {
+        font-size: 18px;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .modal_window {
+        width: 300px;
+        top: 20%;
+        left: 3%;
+    }
+}
