@@ -31,7 +31,7 @@ export default function ModalWindow(props) {
                         <img src={icon_4} alt='icon' />
                     </a>
                 </div>
-                <button className="btn_close" onClick={handleClose}>close</button>
+                <button className="btn_close" onClick={handleClose}>закрыть</button>
             </div>
 
         </>

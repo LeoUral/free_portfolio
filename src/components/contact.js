@@ -23,7 +23,7 @@ export default function Contact() {
                         <ModalWindow show={show} offShow={handleOffShow} />
                         <button className="btn_open" onClick={handleShow}>
                             <div className="in_btn">
-                                <span>contacts</span>
+                                <span>контакты</span>
                             </div>
                         </button>
                     </div>
