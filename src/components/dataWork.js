@@ -8,7 +8,7 @@ const DATA_WORK = [
 
     { id: 4, url: "https://service-tehniki.ru/", text: "Сайт был изготовлен по тех.заданию с нуля. Создавался в группе с дизайнером, бэк-эндом.(HTML, SCSS, JS, PHP)", title: "Техсервис мастер", urlImg: "/img/Screenshot_4.png" },
 
-    { id: 5, url: "https://leoural.github.io/", text: "Сайты сделанные разными способами (HTML, CSS, JS, React, SASS и др.)", title: "Будущие работы", urlImg: "/img/bg-1.jpg" },
+    { id: 5, url: "https://test.lotus-uems.ru/", text: "Приложение написано на React и Node.js. Используется база MongoDB", title: "Текущая работа, тестовый сервер", urlImg: "/img/bg-1.jpg" },
 
     { id: 6, url: "https://github.com/LeoUral", text: "Ссылка на мой репозиторий.", title: "github.com/LeoUral", urlImg: "/img/Screenshot_6.png" }
 ];

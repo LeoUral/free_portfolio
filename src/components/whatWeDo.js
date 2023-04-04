@@ -5,6 +5,7 @@ import iconHtml from '../image/social_html5_html_71.png';
 import iconSass from '../image/sass_alt_logo_icon_144910.png';
 import iconJs from '../image/prog-js02_icon-icons.com_50788.png';
 import iconReact from '../image/react_icon_135264.png';
+import iconNode from '../image/Node-icon.png';
 
 
 
@@ -42,6 +43,14 @@ export default function WhatWeDo() {
                             <p> React (иногда React.js или ReactJS) — JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов </p>
                             <p > React разрабатывается и поддерживается Facebook, Instagram и сообществом отдельных разработчиков и корпораций. </p>
                             <p> React может использоваться для разработки одностраничных и мобильных приложений. Его цель — предоставить высокую скорость, простоту и масштабируемость. </p>
+                        </div>
+
+                        <div className="what_block_box">
+                            <img src={iconNode} alt="icon" width='60' height="60" />
+                            <h4>Node.js</h4>
+                            <p> Написание бэкенда на Node.js, база данных MongoDB </p>
+                            <p> Node (или более формально Node.js) - кроссплатформенная среда исполнения с открытым исходным кодом, которая позволяет разработчикам создавать всевозможные серверные инструменты и приложения используя язык JavaScript. Среда исполнения предназначена для использования вне контекста браузера (т.е. выполняется непосредственно на компьютере или на серверной ОС). </p>
+
                         </div>
 
                     </div>
